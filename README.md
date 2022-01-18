@@ -41,3 +41,8 @@ DB_HOST="localhost or any other host name"
 - Auth app is `accounts`. It uses a custom user model.
 - Main app is `core`.
 - Find the API documentation via `localhost:8000/docs` for API request endpoints.
+
+## CONTAINERISATION
+- Used Docker 
+- You can build the spin up the docker containers by `docker-compose -f docker-compose.yml up --build `
+- Visit `localhost` to view the app running inside the container. 
